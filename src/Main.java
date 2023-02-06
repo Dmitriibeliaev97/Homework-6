@@ -48,5 +48,8 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
+        for (int i = 2; i <= 512; i = i * 2) {
+            System.out.println(i);
+        }
     }
 }
