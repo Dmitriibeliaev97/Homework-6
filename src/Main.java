@@ -82,9 +82,9 @@ public class Main {
                 System.out.println(i + " x " + a + " = " + i * a);
             }
         }
-        int i = 2;
-        for (int a = 1; a <= 10; a++) {
-            System.out.println(i + " x " + a + " = " + i * a);
+        int j = 2;
+        for (int k = 1; k <= 10; k++) {
+            System.out.println(j + " x " + k + " = " + j * k);
         }
     }
 }
