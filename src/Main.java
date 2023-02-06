@@ -27,6 +27,8 @@ public class Main {
     }
     public static void task4 () {
         System.out.println("Задача 4");
-        // Пишем код для задачи 4
+        for (int i = 10; i >= -10; i--) {
+            System.out.println(i);
+        }
     }
 }
