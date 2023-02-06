@@ -61,13 +61,19 @@ public class Main {
         int savings = 0;
         for (int i = 1; i <= 12; i++) {
             savings = savings + deposit;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + savings);
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + savings);
         }
 
     }
     public static void task9 () {
         System.out.println("Задача 9");
-
+        int deposit = 29000;
+        int savings = 0;
+        for (int i = 1; i <= 12; i++) {
+            savings = savings + savings/100;
+            savings = savings + deposit;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + savings);
+        }
     }
     public static void task10 () {
         System.out.println("Задача 10");
